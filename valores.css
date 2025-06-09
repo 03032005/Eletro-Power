@@ -1,0 +1,69 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 40px;
+    }
+
+
+    .header a {
+        gap: 20px;
+        color: orangered;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .header a:hover {
+        color: white;
+        text-decoration: underline;
+        transition: 0.1s;
+
+    }
+
+    .paragrafo {
+
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        max-width: 800px;
+        width: 90%;
+        margin: 40px auto;
+        text-align: center;
+
+    }
+
+
+    .titulo {
+        color: orangered;
+        font-family: 'poppins', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+
+    spam {
+        color: orangered;
+    }
+
+    img{
+        z-index: -1;
+
+    }

@@ -7,14 +7,14 @@
 
 body {
     margin: 30px;
-    background: black;
-     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-     z-index: -1;
+    background: linear-gradient(135deg, #3a3a3a, #707070);
+    background-size: cover;
+    z-index: -1;
 
 }
 
 header {
-     display: flex;
+    display: flex;
     align-items: center;
     gap: 20px;
     margin: 80px;
@@ -28,7 +28,7 @@ header a {
 }
 
 header a:hover {
-     color: white;
+    color: white;
     text-decoration: underline;
     transition: 01s;
 }
@@ -38,7 +38,7 @@ h1 {
     cursor: pointer;
 }
 
-p{
+p {
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -48,7 +48,8 @@ p{
     font-size: 17px;
 }
 
-img{
+img {
+
     height: 500px;
     width: 500px;
     border-radius: 10px;
@@ -58,16 +59,50 @@ img{
 }
 
 
+
+img:hover {
+    transform: translate(0, -10px);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.link-athletica {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    left: 0;
+
+
+}
+
+.img-athletica {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.img-athletica:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
 @media (max-width: 718px) {
-    
-    img{
+
+    img {
         height: 300px;
         width: 300px;
         margin-left: 0px;
     }
-    p{
+
+    p {
         font-size: 15px;
     }
+
 }
-
-
