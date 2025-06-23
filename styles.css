@@ -279,7 +279,6 @@ h2 {
     border-radius: 10px;
     gap: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    z-index:;
     position: absolute;
     transition: all 0.4s;
     left: 65%;
