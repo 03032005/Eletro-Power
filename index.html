@@ -10,13 +10,22 @@
 
 <body>
 
+    <div class="topbar">
+
+        <h1 class="topbar-title">Entre em contato com nossos especialistas</h1>
+        <buttom class="bottom-topbar" onclick="mostrarForm()">Faça seu orçamento <br> agora mesmo</buttom>
+        <a href="https://wa.me/5511945965976?text=%F0%9F%91%8B%20Ol%C3%A1!%20Obrigado%20por%20entrar%20em%20contato.%20Como%20posso%20ajudar%20voc%C3%AA%20hoje%3F"
+            class="link-whats-topbar">Faça seu orçamento por <br> Whatsapp </a>
+
+    </div>
+
     <div class="caixa-principal">
 
         <div class="header">
+            <img src="./img/LOGO11.png" alt="Logo Eletro Power" class="logo-eletro-power">
+            <h1>Eletro Power</h1>
             <a href="index.html">Home</a>
-            <a href="nossos-servicos.html">Nossos Serviços</a>
             <a href="./valores.html">Valores</a>
-
         </div>
 
         <div class="caixa-fundo">
@@ -24,47 +33,92 @@
             <div class="mascara"></div>
         </div>
 
-        <img src="./img/logo04.png" alt="Logo Eletro Power" class="logo-eletro-power">
+        <div class="caixa-texto-form">
+            <P class="p">Bem-vindo à <spam>ELETRO POWER</spam> – Soluções Profissionais ao Seu Alcance! <br> <br>
 
-        <P class="p">Bem-vindo à <spam>ELETRO POWER</spam> – Soluções Profissionais ao Seu Alcance! <br> <br>
 
+                Na <spam>ELETRO POWER </spam>, acreditamos que qualidade, eficiência e confiança são essenciais para
+                qualquer serviço. Com uma equipe de profissionais altamente qualificados, oferecemos soluções completas
+                em
+                elétrica, alvenaria, bombeiro hidráulico, tecnologia da informação e muito mais.
 
-            Na <spam>ELETRO POWER </spam>, acreditamos que qualidade, eficiência e confiança são essenciais para
-            qualquer serviço. Com uma equipe de profissionais altamente qualificados, oferecemos soluções completas em
-            elétrica, alvenaria, bombeiro hidráulico, tecnologia da informação e muito mais.
+                Nosso compromisso é garantir que cada projeto, seja pequeno ou grande, seja executado com excelência e
+                segurança. Trabalhamos com materiais de alta qualidade e seguimos rigorosos padrões técnicos para
+                proporcionar o melhor resultado aos nossos clientes.
 
-            Nosso compromisso é garantir que cada projeto, seja pequeno ou grande, seja executado com excelência e
-            segurança. Trabalhamos com materiais de alta qualidade e seguimos rigorosos padrões técnicos para
-            proporcionar o melhor resultado aos nossos clientes.
-
-            Quer transformar sua ideia em realidade? Precisa de um suporte técnico confiável? Conte conosco! Nossa
-            equipe está pronta para atender às suas necessidades com profissionalismo e dedicação.
-            Entre em contato e descubra como podemos ajudar você!
+                Quer transformar sua ideia em realidade? Precisa de um suporte técnico confiável? Conte conosco! Nossa
+                equipe está pronta para atender às suas necessidades com profissionalismo e dedicação.
+                Entre em contato e descubra como podemos ajudar você!
+            </p>
             <br>
 
-            <button onclick="mostrarForm()">ENTRE EM CONTATO</button>
-    </div>
+            <button class="entre-contato" onclick="mostrarForm()">ENTRE EM CONTATO</button>
 
 
-    <form 
-    class="formulario"
-         action="https://formcarry.com/s/eSy8LShqanA"
-         method="POST"
-         enctype="multipart/form-data">
-        <input placeholder="Seu nome" type="text" name="name">
-        <input placeholder="Seu Telefone" type="tel" name="telefone">
-        <input placeholder="Seu E-mail" type="email" name="email">
-        <input placeholder="Endereço" type="text" name="endereço">
-        <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
-        <button type="submit" onclick="esconderForm()">Pedir Orçamento</button>
-    </form>
+            <form class="formulario" action="https://formcarry.com/s/eSy8LShqanA" method="POST"
+                enctype="multipart/form-data">
+                <h2>Faça um orçamento</h2>
+                <input placeholder="Seu nome" type="text" name="name">
+                <input placeholder="Seu Telefone" type="tel" name="telefone">
+                <input placeholder="Seu E-mail" type="email" name="email">
+                <input placeholder="Endereço" type="text" name="endereço">
+                <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
+                <button class="pedir-orcamento" onclick="esconderForm()">Pedir Orçamento</button>
+            </form>
 
-    <a href="https://wa.me/5511945965976?text=%F0%9F%91%8B%20Ol%C3%A1!%20Obrigado%20por%20entrar%20em%20contato.%20Como%20posso%20ajudar%20voc%C3%AA%20hoje%3F" class="link-whats">
- <img src="./img/whatsapp.png" alt="WhatsApp" class="whatsapp-img">
+            <a href="https://wa.me/5511945965976?text=%F0%9F%91%8B%20Ol%C3%A1!%20Obrigado%20por%20entrar%20em%20contato.%20Como%20posso%20ajudar%20voc%C3%AA%20hoje%3F"
+                class="link-whats">
+                <img src="./img/whatsapp.png" alt="WhatsApp" class="whatsapp-img"></a>
 
-    </a>
+        </div>
 
-    <div class="mascara-form" onclick="esconderForm()"></div>
+
+
+
+        <div class="galeria-servicos">
+
+            <section class="secao-servicos">
+                <h2 class="titulo-servicos">Nossos Serviços</h1>
+                    <p class="texto-servicos">Oferecemos uma ampla gama de serviços para atender às suas necessidades,
+                        desde instalações elétricas até manutenção de sistemas hidráulicos. Nossa equipe é especializada
+                        e está pronta para garantir a qualidade e segurança em cada projeto.</p>
+            </section>
+
+
+            <div class="carrossel">
+                <img src="./img/painel-eletrico01.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/painel-eletrico02.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-eletricos04.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-eletricos01.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-eletricos02.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-eletricos03.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-eletricos05.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-hidraulicos03.png" alt="Serviço Elétrico" class="img-eletrica">
+                <img src="./img/trampos-hidraulicos02.png" alt="Serviço Elétrico" class="img-eletrica">
+
+
+            </div>
+        </div>
+
+
+        <div class="clientes">
+            <h3 class="titulo-clientes">Nossos Clientes</h3>
+            <p class="texto-clientes">Temos o orgulho de atender a uma variedade de clientes, desde residências até
+                empresas de grande porte. Nossa reputação é construída com base na confiança e satisfação dos nossos
+                clientes. Atualmente prestando serviços de mantenção geral na Companhia Athletica.</p>
+            <img src="./img/img-gym.png" alt="Companhia Athletica" class="img-athletica">
+        </div>
+
+
+
+
+
+            <div class="mascara-form" onclick="esconderForm()"></div>
+
+
+
+
+
 
 
 </body>

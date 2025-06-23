@@ -2,15 +2,14 @@
  let mascara = document.querySelector('.mascara-form');
 
   function mostrarForm() {
-    formulario.style.right = '200px'
-    mascara.style.visibility = 'visible'
+     document.querySelector('.formulario').classList.add('centralizado');
+    document.querySelector('.mascara-form').style.visibility = 'visible';
  }
 
 
 
  function esconderForm() {
-    formulario.style.right = '-507px';
-      mascara.style.visibility = 'hidden'
+    document.querySelector('.formulario').classList.remove('centralizado');
+    document.querySelector('.mascara-form').style.visibility = 'hidden';
  }
 
- console.loig("ola mundo")
